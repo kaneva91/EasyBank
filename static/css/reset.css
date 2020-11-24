@@ -1,0 +1,23 @@
+/*Removes all default whitespace*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Reset CSS Box Model sizing calculations*/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}

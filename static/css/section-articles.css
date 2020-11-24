@@ -1,0 +1,52 @@
+section.latest-articles div.article-list div.article{
+    border-radius: 5px;;
+    margin-right: 4.5em;
+    background: hsl(0, 0%, 100%);
+}
+
+section.latest-articles div.article-list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+section.latest-articles div.article-list div{
+    margin-bottom: 1em;
+}
+
+
+
+section.latest-articles div.article-list img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+section.latest-articles small,
+section.latest-articles h4, 
+section.latest-articles p{
+    margin: 0 1.2em;
+}
+
+section.latest-articles a{
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+
+section.latest-articles a:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+section.latest-articles h4{
+    margin: 0.5em 1,2;
+}
+
+section.latest-articles p{
+    font-size: 17px
+}
+
+
+@media only screen and (max-width: 600px)  {
+    section.latest-articles div.article-list{
+        flex-direction: column;
+    }
+}

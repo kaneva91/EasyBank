@@ -1,0 +1,40 @@
+section.features{
+    z-index: -1;
+}
+section.features div.features-list div.feature{
+    margin-right: 4.5em;
+    min-width:10em;     
+}
+
+section.features div.features-list {
+    margin-top: 2em;
+}
+
+section.features div.features-list 
+section.features div.features-list div.feature img{
+  padding-bottom: 2em;
+}
+
+section.features div.features-list div.feature h3{
+    padding-bottom: 1em;
+    color: hsl(233, 26%, 24%);
+  }
+
+  section.features div.features-list p{
+    font-weight: 200;
+  }
+
+
+section.features div.features-list{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 600px)  {
+    section.features div.features-list{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
